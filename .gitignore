@@ -1,0 +1,36 @@
+# Python virtual environment
+venv/
+# Ignore Python/Django files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+
+# Node modules (for backend or frontend)
+node_modules/
+
+# React build files
+frontend/build/
+
+# Django static files (optional)
+staticfiles/
+media/
+
+# VSCode settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Git credential files (DON'T ever push these)
+*.pem
+*.key
+*.crt
+config.bat
+.env
